@@ -1,0 +1,33 @@
+.chapters{
+    margin-left: 5%;
+    clear: left;
+}
+.chapters ul{
+    margin-left: 5%;
+}
+.chapters li{
+    display: inline-block;
+    margin-right: 24px;
+}
+.container{
+    width: 625px;
+    margin-left: 5%;
+    clear: left;
+}
+.title{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}.title a{
+    color: #1a0dab;
+}
+.result-card{
+    margin-bottom: 44px;
+}
+.formatted-url a{
+    text-decoration: none;
+    color: black
+}
+.snippet{
+    margin: 15px 0;
+    color: #4d5156;
+}
