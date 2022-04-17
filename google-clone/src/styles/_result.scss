@@ -1,0 +1,19 @@
+.result-tabs{
+    padding-left: 130px;
+    span{
+        padding: 9px;
+    }
+}
+.about-search{
+    padding: 10px;
+}
+.search-result{
+    padding: 12px 130px;
+    .search-item{
+        padding: 15px;
+        .link{
+            color: gray;
+            font-size: small;
+        }
+    }
+}

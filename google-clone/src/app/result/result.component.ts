@@ -16,7 +16,8 @@ export class ResultComponent {
   ngOnInit(){ 
     this.apiSvc.getResult().subscribe(res=>{
       this.result = res;
-      console.log(111,res)})
+      console.log(res)
+    })
     }
 
 }

@@ -13,6 +13,7 @@ export class ApiService {
   public repoStory = new Subject<any>();
   search(q:string){
     return this.http.get(this.URL+`&q=${q}`)
+   
   }
   setResult(res:any){
     this.repoStory.next(res);

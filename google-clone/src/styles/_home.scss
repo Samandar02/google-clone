@@ -1,0 +1,147 @@
+
+
+    .account-content {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    
+        img{
+            border-radius: 50%;
+        }
+        span {
+            margin: 5px;
+        }
+    
+        &::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.fl {
+    float: right;
+}
+.container-content{
+
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .wlapper-container{
+        padding: 150px 0 0;
+    }
+    .searchinput-container{
+        padding: 30px;
+        .input{
+            width: 60vw;
+            height: 36px;
+            border-radius: 20px;
+            border: 1px solid gray;
+            display: flex;
+            align-items: center;
+            svg{
+                padding-left: 12px;
+                padding-top: 5px;
+            }
+            input{
+                padding-left: 12px;
+                width: 85%;
+                height: 100%;
+                border: 0;
+                outline: 0;
+            }
+            &:hover{
+                box-shadow: 0 0 10px gray;
+            }
+        }
+    }
+    .offered-container{
+        padding: 10px;
+        bottom: 10px;
+        button{
+            margin: 10px;
+        }
+    }
+}
+}
+.container-s-content{
+   
+
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    flex-direction: row;
+    .wlapper-container{
+        padding: 15px 0 0;
+        img{
+            height: 36px;
+        }
+    }
+    .searchinput-container{
+        padding: 30px;
+        .input{
+            width: 55vw;
+            height: 36px;
+            border-radius: 20px;
+            border: 1px solid gray;
+            display: flex;
+            align-items: center;
+            svg{
+                padding-left: 12px;
+                padding-top: 5px;
+            }
+            input{
+                padding-left: 12px;
+                width: 85%;
+                height: 100%;
+                border: 0;
+                outline: 0;
+            }
+            &:hover{
+                box-shadow: 0 0 10px gray;
+            }
+        }
+    }
+    .offered-container{
+        padding: 10px;
+        bottom: 10px;
+        button{
+            margin: 10px;
+        }
+    }
+} 
+}
+footer{
+    background-color: rgb(226, 226, 226);
+    color: gray;
+    padding: 30px 12px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    .privacy{
+        display: flex;
+        flex-direction: row;
+        p{
+            padding: 10px;
+            a{
+                color: gray;
+                text-decoration: none;
+            }
+        }
+    }
+}
